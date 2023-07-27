@@ -5,16 +5,34 @@
 		"factoryName": {
 			"value": "dattafactory78686"
 		},
+		"ADLS2CCSVcust_accountKey": {
+			"value": ""
+		},
 		"ADLSParquet_accountKey": {
 			"value": ""
 		},
 		"ADLScsv_accountKey": {
 			"value": ""
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSynapseAnalytics2_connectionString": {
+			"value": ""
+		},
+		"PoolDBDimCust_connectionString": {
+			"value": ""
+		},
+		"ADLS2CCSVcust_properties_typeProperties_url": {
+			"value": "https://gen2storeacct12343.dfs.core.windows.net/"
+		},
 		"ADLSParquet_properties_typeProperties_url": {
 			"value": "https://gen2storeacct12343.dfs.core.windows.net/"
 		},
 		"ADLScsv_properties_typeProperties_url": {
+			"value": "https://gen2storeacct12343.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://gen2storeacct12343.dfs.core.windows.net/"
 		},
 		"containerUri": {

@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "dattafactory78686"
 		},
+		"ADLS2CCSVcust_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'ADLS2CCSVcust'"
+		},
 		"ADLSParquet_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'ADLSParquet'"
@@ -15,11 +19,31 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'ADLScsv'"
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage1'"
+		},
+		"AzureSynapseAnalytics2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSynapseAnalytics2'"
+		},
+		"PoolDBDimCust_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'PoolDBDimCust'"
+		},
+		"ADLS2CCSVcust_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://gen2storeacct12343.dfs.core.windows.net/"
+		},
 		"ADLSParquet_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://gen2storeacct12343.dfs.core.windows.net/"
 		},
 		"ADLScsv_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://gen2storeacct12343.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://gen2storeacct12343.dfs.core.windows.net/"
 		},
@@ -50,17 +74,35 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"ADLS2CCSVcust_accountKey": {
+						"value": "[parameters('ADLS2CCSVcust_accountKey')]"
+					},
 					"ADLSParquet_accountKey": {
 						"value": "[parameters('ADLSParquet_accountKey')]"
 					},
 					"ADLScsv_accountKey": {
 						"value": "[parameters('ADLScsv_accountKey')]"
 					},
+					"AzureDataLakeStorage1_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage1_accountKey')]"
+					},
+					"AzureSynapseAnalytics2_connectionString": {
+						"value": "[parameters('AzureSynapseAnalytics2_connectionString')]"
+					},
+					"PoolDBDimCust_connectionString": {
+						"value": "[parameters('PoolDBDimCust_connectionString')]"
+					},
+					"ADLS2CCSVcust_properties_typeProperties_url": {
+						"value": "[parameters('ADLS2CCSVcust_properties_typeProperties_url')]"
+					},
 					"ADLSParquet_properties_typeProperties_url": {
 						"value": "[parameters('ADLSParquet_properties_typeProperties_url')]"
 					},
 					"ADLScsv_properties_typeProperties_url": {
 						"value": "[parameters('ADLScsv_properties_typeProperties_url')]"
+					},
+					"AzureDataLakeStorage1_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
 					}
 				}
 			},
