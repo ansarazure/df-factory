@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dattafactory78686"
+		},
+		"ADLSParquet_accountKey": {
+			"value": ""
+		},
+		"ADLScsv_accountKey": {
+			"value": ""
+		},
+		"ADLSParquet_properties_typeProperties_url": {
+			"value": "https://gen2storeacct12343.dfs.core.windows.net/"
+		},
+		"ADLScsv_properties_typeProperties_url": {
+			"value": "https://gen2storeacct12343.dfs.core.windows.net/"
+		}
+	}
+}
