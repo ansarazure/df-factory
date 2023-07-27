@@ -20,6 +20,9 @@
 		"AzureSynapseAnalytics2_connectionString": {
 			"value": ""
 		},
+		"LinkSVCMetadata_accountKey": {
+			"value": ""
+		},
 		"PoolDBDimCust_connectionString": {
 			"value": ""
 		},
@@ -33,6 +36,9 @@
 			"value": "https://gen2storeacct12343.dfs.core.windows.net/"
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://gen2storeacct12343.dfs.core.windows.net/"
+		},
+		"LinkSVCMetadata_properties_typeProperties_url": {
 			"value": "https://gen2storeacct12343.dfs.core.windows.net/"
 		},
 		"containerUri": {

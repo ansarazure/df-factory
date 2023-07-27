@@ -27,6 +27,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSynapseAnalytics2'"
 		},
+		"LinkSVCMetadata_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'LinkSVCMetadata'"
+		},
 		"PoolDBDimCust_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'PoolDBDimCust'"
@@ -44,6 +48,10 @@
 			"defaultValue": "https://gen2storeacct12343.dfs.core.windows.net/"
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://gen2storeacct12343.dfs.core.windows.net/"
+		},
+		"LinkSVCMetadata_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://gen2storeacct12343.dfs.core.windows.net/"
 		},
@@ -89,6 +97,9 @@
 					"AzureSynapseAnalytics2_connectionString": {
 						"value": "[parameters('AzureSynapseAnalytics2_connectionString')]"
 					},
+					"LinkSVCMetadata_accountKey": {
+						"value": "[parameters('LinkSVCMetadata_accountKey')]"
+					},
 					"PoolDBDimCust_connectionString": {
 						"value": "[parameters('PoolDBDimCust_connectionString')]"
 					},
@@ -103,6 +114,9 @@
 					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
+					},
+					"LinkSVCMetadata_properties_typeProperties_url": {
+						"value": "[parameters('LinkSVCMetadata_properties_typeProperties_url')]"
 					}
 				}
 			},
